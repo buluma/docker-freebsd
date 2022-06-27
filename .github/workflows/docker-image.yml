@@ -16,5 +16,12 @@ jobs:
     - uses: actions/checkout@v3
     - name: create base
       run: sh fetch_release.sh
+    - run: chmod +x "${GITHUB_WORKSPACE}/fetch_release.sh" && "${GITHUB_WORKSPACE}/fetch_release.sh"
+
+    # run script
+    # "${GITHUB_WORKSPACE}/.github/script.sh"
+    # or
+    # "${{ format('{0}/.github/script.sh', github.workspace) }}"
+
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
