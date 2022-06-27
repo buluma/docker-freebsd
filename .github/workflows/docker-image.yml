@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v3
     # - name: create base
       # run: sh fetch_release.sh
-    - run: chmod +x "${GITHUB_WORKSPACE}/fetch_release.sh" && ls -lh . && "${GITHUB_WORKSPACE}/fetch_release.sh"
+    - run: chmod +x "${GITHUB_WORKSPACE}/fetch_release.sh" && ls -lh . && ./fetch_release.sh
 
     
 
