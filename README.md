@@ -1,7 +1,6 @@
 # docker-freebsd
 
 [![License](https://img.shields.io/github/license/buluma/docker-freebsd.svg?maxAge=2592000)](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal)
-[![MicroBadger](https://images.microbadger.com/badges/image/buluma/freebsd.svg)](http://microbadger.com/images/buluma/freebsd)
 
 FreeBSD Docker image from distribution archive.
 
